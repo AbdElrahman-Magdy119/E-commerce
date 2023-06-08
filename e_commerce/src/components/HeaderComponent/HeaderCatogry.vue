@@ -65,7 +65,7 @@
   </script>
   
   <style>
-  @import url('@/assets/fonts/font.css');
+  
   div{
     font-family: 'DIN Next LT W23';
     font-weight:600
