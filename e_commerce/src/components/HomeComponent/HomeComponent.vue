@@ -1,10 +1,8 @@
+
+
 <template >
 
-
-
-
-
-
+ <HometopComponent/>
 
   <div class="container">
      <div class="row">
@@ -475,10 +473,16 @@
 </template>
 
 <script>
-
+  import WelcomeComponent from '../../components/HomeComponent/WelcomeComponent.vue'
+  import HometopComponent from '../../components/HomeComponent/HometopComponent.vue'
 
 export default {
-
+   components:{
+ 
+        WelcomeComponent,
+        HometopComponent
+   
+     }
 }
 </script>
 

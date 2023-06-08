@@ -1,69 +1,65 @@
 <template>
-  <div class="navigation-wrap bg-white start-header start-style">
-    <div class="container ">
-      <div class="row ">
-        <div class="col-12">
-          <nav class="navbar navbar-expand-md navbar-light">
-            <div class="col-3 d-flex ">
+ <nav class="navbar navbar-expand-lg ">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <div class="row">
+                        <div class="col-2 me-2" style="padding-left: 1px;">
+                            <h5>السلة</h5>
+                            <h5>ر.س</h5>
+                            <div class="notification">1</div>
+                        </div>
+                        <i class="fa-solid fa-bag-shopping col-1 mt-2"></i>
+                    </div>
+                </li>
+                <li class="nav-item ">
+                    <div class="row ms-3">
+                        <div class="col-2 me-5 ">
+                            <h5>حسابى</h5>
+                            <h5>تسجيل الدخول</h5>
 
-              <div class="col-3 pt-2">
-                <div class="row">
-                  <div class="col-2 me-2">
-                    <h5>السلة</h5>
-                    <h5>ر.س</h5>
-                    <div class="notification">1</div>
-                  </div>
-                  <i class="fa-solid fa-bag-shopping col-1 mt-2"></i>
-                </div>
+                        </div>
+                        <i class="fa-regular fa-user mt-2 mx-3 col-1"></i>
 
-
-              </div>
-              <div class="col-4 pt-2">
-                <div class="row">
-                  <div class="col-2 me-5 ">
-
-                    <h5>حسابى</h5>
-                    <h5>تسجيل الدخول</h5>
-
-                  </div>
-                  <i class="fa-regular fa-user mt-2  col-1"></i>
-
-                </div>
-
-              </div>
-
-              <div class="col-4 d-flex mt-3">
-                <div class="dropdown">
-                  <select class="language-select">
-                    <option value="en">EN</option>
-                    <option value="ar">AR</option>
-                  </select>
-                </div>
-                <img src="../../assets/flag.svg" alt="Saudi Arabia Flag">
-              </div>
-
-
+                    </div>
+                </li>
+                <li class="nav-item d-flex me-3">
+                    <div class="dropdown ">
+                        <select class="language-select ">
+                            <option value="en">EN</option>
+                            <option value="ar">AR</option>
+                        </select>
+                    </div>
+                    <div>
+                        <img src="../../assets/flag.svg" alt="Saudi Arabia Flag" style="    margin-top: 10px;">
+                    </div>
+                </li>
+            </ul>
+            <div class="col-6 me-2">
+                <form class="d-flex input-group w-auto" style="height: 53px;">
+                    <input type="search" class="form-control rounded-0 border-0 bg-light text-end"
+                        placeholder="أدخل كلمة البحث" aria-label="Search" />
+                    <button class="btn btn-outline-primary rounded-0 border-0" type="button"
+                        data-mdb-ripple-color="dark" style="background-color: #00464a;width: 69px;">
+                        <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
+                    </button>
+                </form>
             </div>
-            <div class="col-7 me-2">
-                    <form class="d-flex input-group w-auto" style="height: 53px;">
-                        <input type="search" class="form-control rounded-0 border-0 bg-light text-end"
-                            placeholder="أدخل كلمة البحث" aria-label="Search" />
-                        <button class="btn btn-outline-primary rounded-0 border-0" type="button"
-                            data-mdb-ripple-color="dark" style="background-color: #00464a;width: 69px;">
-                            <i class="fa-solid fa-magnifying-glass" style="color: white;"></i>
-                        </button>
-                    </form>
-                </div>
-            <div class="col-2">
 
-              <img src="../../assets/newLogo.svg" alt="">
-
+            <div class="d-flex">
+                <img src="../../assets/newLogo.svg" style="height: 70px;" alt="">
             </div>
-          </nav>
+
+
         </div>
-      </div>
     </div>
-  </div>
+</nav>
 </template>
 
 <script>
@@ -74,7 +70,7 @@ export default {
 
 <style scoped>
 
-div {
+  div {
   font-family: 'DIN Next LT W23';
 }
 
@@ -169,11 +165,11 @@ i:nth-child(2) {
 }
 .notification {
   position: absolute;
-    top: 61%;
+    /* top: 61%; */
     z-index: 244;
-    margin-left: 5%;
+    margin-left: 56px;
    
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     background-color: red;
     color: white;
     font-size: 12px;
@@ -244,5 +240,4 @@ i:nth-child(2) {
   line-height: 14px;
   position: absolute;
 }
-
-/* Please ❤ this if you like it! */</style>
+</style>

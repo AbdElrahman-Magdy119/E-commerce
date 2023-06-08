@@ -1,19 +1,5 @@
 <template>
- <!DOCTYPE html>
-<html>
-
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Footer</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="./bootstrap-5.3.0-dist/bootstrap-5.3.0-dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="style.css" rel="stylesheet">
-
-</head>
+ 
 
 <body>
 
@@ -22,7 +8,7 @@
       <div class="row" dir="rtl">
         <div class="col-md-2 ">
              <div class="section_1">
-          <h5>دَرْب برنت</h5>
+          <h5  style="font-weight: 600;">دَرْب برنت</h5>
           <section>
             مبيعات الشركات<br>
             من نحن<br>
@@ -32,8 +18,8 @@
         </div>
     </div>
 
-        <div class="col-md-7 ">
-          <h5>روابط مهمة</h5>
+        <div class="col-md-6  me-5">
+          <h5 style="font-weight: 600;" >روابط مهمة</h5>
           <section>
             سياسة الخصوصية<br>
             سياسة الإستبدال والإرجاع <br>
@@ -83,11 +69,11 @@
         </div>
 
         <div class="col-md-4" dir="rtl">
-          <p> الحقوق محفوظة © 2023 دَرْب برنت - شركه درب برودكشنز</p>
+          <small> الحقوق محفوظة © 2023 دَرْب برنت - شركه درب برودكشنز</small>
         </div>
 
         <div class="col-md-2 section_2">
-          <p>صُنع بواسطة روّاد</p>
+          <small>صُنع بواسطة روّاد </small>
         </div>
         
 
@@ -98,7 +84,7 @@
   
 </body>
 
-</html>
+
 </template>
 
 <script>
@@ -108,11 +94,13 @@ export default {
 </script>
 
 <style scoped>
+
 .Link {
   text-decoration: none;
 }
 body
 {
+  font-family: 'DIN Next LT W23';
   overflow-x:hidden ;
 }
 .down{
