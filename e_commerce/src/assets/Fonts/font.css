@@ -1,0 +1,7 @@
+/* your-font.css */
+
+@font-face {
+  font-family: 'DIN Next LT W23';
+  src: url('./din-next-lt-w23-regular.ttf') format('truetype');
+  /* Add other font properties if needed */
+}
