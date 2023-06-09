@@ -54,13 +54,14 @@
 
       <div class="row down pt-3 mt-5 "  dir="rtl">
 
-        <div class="col-md-5 d-flex container mediaquery">
+        <div class="col-1"></div>
+        <div class="col-1 d-flex container mediaquery">
          <div class="overlay-div">
           <div class="whatsapp-icon">
             <i class="fab fa-whatsapp"></i>
           </div>
 
-          <h5 class="bg-white me-4 p-2" dir="rtl">
+          <h5 class="bg-white welcome me-4 mt-2 p-2" dir="rtl">
             حياك👋<br>
             يمكنك الطلب والاستفسار مباشرة<br>
             عن طريق الواتس اب<br>
@@ -68,11 +69,11 @@
         </div>
         </div>
 
-        <div class="col-md-4" dir="rtl">
-          <small> الحقوق محفوظة © 2023 دَرْب برنت - شركه درب برودكشنز</small>
+        <div class="col-4 " dir="rtl" >
+          <small>الحقوق محفوظة<b>  © 2023 دَرْب برنت - شركه درب برودكشنز</b></small>
         </div>
 
-        <div class="col-md-2 section_2">
+        <div class="col-2 section_2">
           <small>صُنع بواسطة روّاد </small>
         </div>
         
@@ -95,6 +96,9 @@ export default {
 
 <style scoped>
 
+.section_2 {
+  text-align: center;
+  }
 .Link {
   text-decoration: none;
 }
@@ -122,18 +126,27 @@ body
   align-items: center;
   justify-content: center;
   width: 13%;
-  height: 48px;
-  border-radius: 65%;
-  top:40px;
-  right:-20px;
+    height: 73%;
+    border-radius: 50%;
+    top: 49%;
+  
+    left: 92%;
 }
 
 .whatsapp-icon i {
   color: white;
   font-size: 150%;
 }
-
-
+.welcome{
+  font-size: smaller;
+    width: max-content;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 2%;
+}
+.down div:nth-child(3){
+  position: relative;
+    left: 4%;
+}
 
 @media screen and (min-width: 800px) {
   .section_1 {

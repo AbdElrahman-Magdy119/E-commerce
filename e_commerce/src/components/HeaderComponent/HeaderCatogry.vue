@@ -1,4 +1,7 @@
 <template>
+
+
+
     <div>
         <ul class="nav nav-fill justify-content-between mx-5">
             <li class="nav-item">
@@ -30,7 +33,7 @@
                     <div class="col-1  mx-2">
 
                     </div>
-                    <div class="col-2 mt-4  ">
+                    <div class="col-2 mt-5  ">
 
                         <div class="card border-0 rounded-0  ">
                             <img src="../../assets/Tobuy.svg" class="card-img-top p-1 rounded-0" alt="...">
@@ -50,8 +53,9 @@
                     <div class="col-2">
 
                     </div>
+
                     <div class="col-2 ">
-                        <ul class="nav flex-column list-unstyled mt-5">
+                        <ul class="nav flex-column list-unstyled mt-2">
                             <li class="nav-item text-end mt-5">
                                 <a class="nav-link text-dark" href="#">كاب </a>
                             </li>
@@ -61,7 +65,7 @@
                             <li class="nav-item text-end">
                                 <a class="nav-link text-dark" href="#">زجاجات شرب </a>
                             </li>
-                            <li class="nav-item text-end">
+                            <li class="nav-item text-end ">
                                 <a class="nav-link text-dark" href="#"> حقائب </a>
                             </li>
                         </ul>
@@ -69,10 +73,10 @@
 
 
                     </div>
-                    <div class="col-2 ">
+                    <div class="col-2  ">
 
-                        <ul class="nav flex-column list-unstyled me-5 ">
-                            <li class="nav-item mt-5 ">
+                        <ul class="nav flex-column list-unstyled me-5 mt-3 ">
+                            <li class="nav-item  ">
                                 <a class="nav-link text-dark" href="#">الهدايا الدعائية</a>
                             </li>
                             <li class=" text-end nav-item">
@@ -96,7 +100,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link text-dark" href="#" @mouseover="showDiv" @mouseout="hideDiv">كروت شخصية</a>
+                <a class="nav-link text-dark " href="#" @mouseover="showDiv" @mouseout="hideDiv">كروت شخصية</a>
                 <div v-if="isHovered"
                     class="hover-div  position-fixed top-0 start-0 bg-white end-0 d-flex justify-content-between ">
                     <div class="col-2  ">
@@ -133,7 +137,7 @@
 
                     </div>
                     <div class="col-2">
-                        <ul class="nav flex-column list-unstyled mt-5">
+                        <ul class="nav flex-column list-unstyled mt-2">
                             <li class="nav-item text-end mt-5">
                                 <a class="nav-link text-dark" href="#">كروت داى كت </a>
                             </li>
@@ -151,7 +155,7 @@
                     <div class="col-2">
 
                         <ul class="nav flex-column list-unstyled ">
-                            <li class="nav-item mt-5 ">
+                            <li class="nav-item mt-2 ">
                                 <a class="nav-link text-dark" href="#">كروت شخصية</a>
                             </li>
                             <li class=" text-end nav-item">
@@ -227,20 +231,51 @@ div {
 
 
 .hover-div {
-  display: none;
-  position: absolute;
-  padding: 10px;
-  margin-top: 10%;
-  height: 50%;
-  border: 1px solid #ffffff;
-  z-index: 1;
-  opacity: 0;
-  transition: opacity 0.3s, transform 0.3s;
+    display: none;
+    position: absolute;
+    padding: 10px;
+    margin-top: 11%;
+    height: 47%;
+    border: 1px solid #ffffff;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s;
 }
 
 li:hover .hover-div {
-  display: block;
-  opacity: 1;
+    display: block;
+    opacity: 1;
+}
+
+.image-wrapper {
+    position: relative;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Adjust the background color and opacity as needed */
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay p {
+    color: white;
+    font-weight: bold;
+}
+
+.image-container:hover+.overlay {
+    display: flex;
 }
 </style>
   

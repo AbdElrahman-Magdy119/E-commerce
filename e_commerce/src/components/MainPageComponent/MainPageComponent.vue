@@ -7,7 +7,7 @@
        
 
         <div> 
-       
+    <Gifthome/>
             <RouterView></RouterView>
         </div>
 
@@ -27,7 +27,7 @@ import HometopComponent from '../HomeComponent/HometopComponent.vue'
 import HomeComponent from '../HomeComponent/HomeComponent.vue'
 import Footertop from '../FooterComponent/Footertop.vue'
 import WelcomeComponent from '../HomeComponent/WelcomeComponent.vue'
- 
+ import Gifthome from '../Gifts/Gifthome.vue'
 export default {
     components:{
         HeaderComponent,
@@ -37,6 +37,7 @@ export default {
         HomeComponent,
         Footertop,
         WelcomeComponent,
+        Gifthome
    
      }
 }

@@ -77,6 +77,10 @@ div{
     transition: background-color 1s;
 }
 
+.card-text{
+  color: #00464A;
+  font-weight: 600;
+}
 .card:hover h5,
 .card:hover p {
     color: white;

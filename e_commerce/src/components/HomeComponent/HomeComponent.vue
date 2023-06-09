@@ -2,10 +2,15 @@
 
 <template >
 
- <HometopComponent/>
 
-  <div class="container">
-     <div class="row">
+  <div class="container-fluid">
+   <WelcomeComponent  />
+   <HometopComponent  />
+
+
+
+   
+   <div class="row">
         <h6 class="text-center fs-3 ">ما الذي ترغب بطباعته اليوم ؟</h6>
      </div>
      <div class="row row-cols-1 row-cols-md-4 g-4 mt-0">
@@ -94,7 +99,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">المنتجات الاكثر طلباً</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -142,7 +147,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">كروت شخصية</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -190,7 +195,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">هدايا دعائية</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -238,7 +243,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">مطبوعات ورقية</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-print"></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -286,7 +291,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">التعبئة والتغليف</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -334,7 +339,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">مطبوعات كبيرةالحجم</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -382,7 +387,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">طباعة الكانفاس</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"><i class="fa-regular fa-file-image" ></i></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -430,7 +435,7 @@
 
         <div class="col" style="text-align: end;">
            <span class="h6 p-1 fs-5" style="color: #333333;">معارض ومؤتمرات</span>
-           <span class="text-white head-icon rounded"><i class="fa-solid fa-circle-nodes" style="margin: 5px;"></i></span>
+           <span class="text-white head-icon rounded"></span>
         </div>
      </div>
      <div class="row row-cols-1 row-cols-md-5 g-4 justify-content-end mt-0">
@@ -504,5 +509,8 @@ export default {
 }
 div{
   font-family: 'DIN Next LT W23';
+}
+div span i{
+margin-top: 1%;
 }
 </style>
