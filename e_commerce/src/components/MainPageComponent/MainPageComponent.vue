@@ -5,11 +5,12 @@
            <HeaderCatogry/>
         </div>
        
-
+<FilterComponent/>
         <div> 
    
            <HomeComponent/>
            
+            <RouterView></RouterView>
         </div>
 
         <div>
@@ -29,6 +30,7 @@ import HomeComponent from '../HomeComponent/HomeComponent.vue'
 import Footertop from '../FooterComponent/Footertop.vue'
 import WelcomeComponent from '../HomeComponent/WelcomeComponent.vue'
  import Gifthome from '../Gifts/Gifthome.vue'
+ import FilterComponent from '../Filter/FilterComponent.vue'
 export default {
     components:{
         HeaderComponent,
@@ -40,6 +42,7 @@ export default {
         WelcomeComponent,
         Gifthome,
         
+        FilterComponent
    
      }
 }
