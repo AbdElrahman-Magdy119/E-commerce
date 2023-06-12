@@ -1,7 +1,7 @@
 
 
 <template >
-
+<div>
 
   <div class="container-fluid">
    <WelcomeComponent  />
@@ -475,6 +475,7 @@
 
      </div>
   </div>
+</div>
 </template>
 
 <script>

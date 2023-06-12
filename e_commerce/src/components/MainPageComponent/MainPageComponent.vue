@@ -7,8 +7,9 @@
        
 
         <div> 
-    <Gifthome/>
-            <RouterView></RouterView>
+   
+           <HomeComponent/>
+           
         </div>
 
         <div>
@@ -37,7 +38,8 @@ export default {
         HomeComponent,
         Footertop,
         WelcomeComponent,
-        Gifthome
+        Gifthome,
+        
    
      }
 }
