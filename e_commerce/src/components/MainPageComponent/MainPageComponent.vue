@@ -8,6 +8,8 @@
 <FilterComponent/>
         <div> 
    
+           <HomeComponent/>
+           
             <RouterView></RouterView>
         </div>
 
@@ -39,6 +41,7 @@ export default {
         Footertop,
         WelcomeComponent,
         Gifthome,
+        
         FilterComponent
    
      }
