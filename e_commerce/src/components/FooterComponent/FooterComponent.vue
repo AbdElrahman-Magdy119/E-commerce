@@ -6,7 +6,7 @@
   <footer class="footer bg-white text-dark mt-4">
     <div class="container-fluid">
       <div class="row" dir="rtl">
-        <div class="col-md-2 ">
+        <div class="col-md-2 me-5 col-5">
              <div class="section_1">
           <h5  style="font-weight: 600;">دَرْب برنت</h5>
           <section>
@@ -18,7 +18,7 @@
         </div>
     </div>
 
-        <div class="col-md-6  me-5">
+        <div class="col-md-6  col-4 me-5">
           <h5 style="font-weight: 600;" >روابط مهمة</h5>
           <section>
             سياسة الخصوصية<br>
@@ -28,11 +28,12 @@
           
         </div>
 
-        <div class="col-md-3 ">
+        <div class="col-md-3 col-12 text-center ">
           
             <h5>حسابات التواصل الإجتماعي</h5>
-            <ul class="list-unstyled d-flex text-center">
-              <li><a class="text-dark Link m-2 rounded-circle border border-light " href="#"><i
+            <div class="col-sm-4"></div>
+            <ul class="list-unstyled col-md-9 col-5  m-auto d-flex  ">
+              <li class="me-sm-3"><a class="text-dark Link m-2 rounded-circle border border-light " href="#"><i
                     class="fab fa-facebook-f"></i></a></li>
               <li><a class="text-dark Link  m-2 rounded-circle border border-light " href="#"><i
                     class="fa-brands fa-instagram"></i></a></li>
@@ -55,7 +56,7 @@
       <div class="row down pt-3 mt-5 "  dir="rtl">
 
         <div class="col-1"></div>
-        <div class="col-1 d-flex container mediaquery">
+        <div class="col-md-1 mx-4 d-flex container mediaquery">
          <div class="overlay-div">
           <div class="whatsapp-icon">
             <i class="fab fa-whatsapp"></i>
@@ -69,11 +70,11 @@
         </div>
         </div>
 
-        <div class="col-4 " dir="rtl" >
+        <div class="col-md-4 col-12 text-center" dir="rtl" >
           <small>الحقوق محفوظة<b>  © 2023 دَرْب برنت - شركه درب برودكشنز</b></small>
         </div>
 
-        <div class="col-2 section_2">
+        <div class="col-md-2 section_2 col-12">
           <small>صُنع بواسطة روّاد </small>
         </div>
         

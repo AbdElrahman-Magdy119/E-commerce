@@ -118,7 +118,7 @@
         </div>
 
         <div class="row mt-5" style="font-family: DIN Next LT W23">
-          <div class="col-md-4">
+          <div class="col-md-4 ">
             <button type="button" class="btnS btn rounded-0" style="
               background-color: #00464a;
               width: 12rem;
@@ -143,7 +143,7 @@
               width: 12rem;
               height: 2rem;
               padding: 3%;
-              margin-right: 1%;
+            
               font-weight: bold;
               border: 1px solid black;
               text-align: center;

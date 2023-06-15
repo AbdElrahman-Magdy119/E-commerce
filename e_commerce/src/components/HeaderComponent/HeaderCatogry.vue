@@ -29,7 +29,7 @@
 
             <li class="nav-item">
                 <a class="nav-link text-dark" href="#" @mouseover="showDiv2" @mouseout="hideDiv2">الهدايا الدعائية</a>
-                <div v-if="isHovered2" class="hover-div  position-fixed top-0 start-0 bg-white end-0 d-flex ">
+                <div v-if="isHovered2" class="hover-div  position-fixed top-0 start-0 bg-white end-0 d-flex my-sm-6 ">
                     <div class="col-1  mx-2">
 
                     </div>
@@ -45,7 +45,7 @@
 
                     </div>
                     <div class="col-1  mx-2">
-
+    
                     </div>
                     <div class="col-2  ">
 

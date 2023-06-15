@@ -7,10 +7,10 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-                <li class="nav-item">
+            <ul class="navbar-nav  ">
+                <li class="nav-item col-sm-2 m-sm-2 m-sm-auto ">
                     <div class="row">
-                        <div class="col-2 me-2" style="padding-left: 1px;">
+                        <div class="col-2  me-2" style="padding-left: 1px;">
                             <h5>السلة</h5>
                             <h5>ر.س</h5>
                             <div class="notification">1</div>
@@ -18,7 +18,7 @@
                         <i class="fa-solid fa-bag-shopping col-1 mt-2"></i>
                     </div>
                 </li>
-                <li class="nav-item ">
+                <li class="nav-item col-sm-5 m-sm-2 m-sm-auto  ">
                     <div class="row ms-3">
                         <div class="col-2 me-5 ">
                             <h5>حسابى</h5>
@@ -29,7 +29,7 @@
 
                     </div>
                 </li>
-                <li class="nav-item d-flex me-3">
+                <li class="nav-item d-flex me-md-5 col-sm-2 m-sm-2 m-sm-auto">
                     <div class="dropdown ">
                         <select class="language-select ">
                             <option value="en">EN</option>
@@ -41,7 +41,8 @@
                     </div>
                 </li>
             </ul>
-            <div class="col-6 me-2">
+            
+            <div class="col-md-6 col-8 me-2 float-start">
                 <form class="d-flex input-group w-auto" style="height: 53px;">
                     <input type="search" class="form-control rounded-0 border-0 bg-light text-end"
                         placeholder="أدخل كلمة البحث" aria-label="Search" />
@@ -52,7 +53,7 @@
                 </form>
             </div>
 
-            <div class="d-flex">
+            <div class="d-flex col-3">
                 <img src="../../assets/newLogo.svg" style="height: 70px;" alt="">
             </div>
 

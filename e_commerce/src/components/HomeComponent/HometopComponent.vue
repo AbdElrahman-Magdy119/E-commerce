@@ -1,82 +1,126 @@
 
 <template>
-    <div class="row container m-auto d-flex mt-5">
+    <div class="row container m-auto  d-flex mt-5">
 
-        <div class="col-2">
-            <div class="hide1">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-
+        <div class="col-md-2 col-6 pb-5">
             <div class="image-wrapper " id="show1">
-
                 <img src="../../assets/Misk.svg" alt="">
+            </div>
+            <div class="hide1 position-absolute">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2 "></i>
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
 
+                
             </div>
         </div>
-        <div class="col-2">
-            <div class="hide2">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-            <div class="image-wrapper show2">
-
+        <div class="col-md-2 col-6 pb-5">
+            <div class="image-wrapper " id="show2">
                 <img src="../../assets/kinoz.svg" alt="">
+            </div>
+            <div class="hide2 position-absolute">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2"></i>
+              
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
 
             </div>
         </div>
-        <div class="col-2">
-            <div class="hide3">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-            <div class="image-wrapper show3">
-
+        <div class="col-md-2 col-6 pb-5">
+            <div class="image-wrapper" id="show3">
                 <img src="../../assets/bank.svg" alt="">
+            </div>
+            <div class="hide3 position-absolute  ">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2 "></i>
+              
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
 
             </div>
         </div>
-        <div class="col-2">
-            <div class="hide4">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-            <div class="image-wrapper show4">
-
+        <div class="col-md-2 col-6 pb-5">
+            <div class="image-wrapper" id="show4">
                 <img src="../../assets/Tawn.svg" alt="">
-
             </div>
+            <div class="hide4 position-absolute">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2"></i>
+              
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
+  </div>
         </div>
-        <div class="col-2">
-            <div class="hide5">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-            <div class="image-wrapper show5">
-
+        <div class="col-md-2 col-6 pb-5">
+            <div class="image-wrapper" id="show5">
                 <img src="../../assets/Sam.svg" alt="">
-
             </div>
+            <div class="hide5 position-absolute">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2"></i>
+              
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
+  </div>
         </div>
-        <div class="col-2">
-            <div class="hide6">
-
-                <img src="../../assets/Misk.svg" alt="">
-
-            </div>
-            <div class="image-wrapper show6">
-
+        <div class="col-md-2 col-6 pb-5">
+           
+            <div class="image-wrapper " id="show6">
                 <img src="../../assets/Solut.svg" alt="">
-
-            </div>
+            </div> <div class="hide6 position-absolute">
+                <br>
+                <i class="fa-solid fa-flip-horizontal fa-arrow-turn-up pt-2"></i>
+              
+                <img style="border: 2px solid black;" width="160px" class="rounded-1 " src="../../assets/conf.jpeg" alt="">
+ </div>
+            
         </div>
     </div>
 
+    <div class="row container m-auto d-flex  mt-5">
+
+<div class="col-2">
+    
+    <div class="hide1">
+        <br>
+        <img src="../../assets/Misk.svg" alt="">
+      
+    </div>
+</div>
+<div class="col-2">
+    <div class="hide2">
+        <br>
+        <img src="../../assets/kinoz.svg" alt="">
+
+    </div>
+</div>
+<div class="col-2">
+    
+    <div class="hide3">
+        <br>
+        <img src="../../assets/bank.svg" alt="">
+
+    </div>
+</div>
+<div class="col-2">
+    
+    <div class="hide4">
+        <br>
+        <img src="../../assets/Tawn.svg" alt="">
+    </div>
+</div>
+<div class="col-2">
+    
+    <div class="hide5">
+        <br>
+        <img src="../../assets/Sam.svg" alt="">
+    </div>
+</div>
+<div class="col-2">
+
+    <div class="hide6">
+        <br>
+        <img src="../../assets/Solut.svg" alt="">
+    </div>
+</div>
+</div>
 
     <div class="row text-center mt-5">
         <small>آلية العمل</small>
@@ -87,7 +131,7 @@
 
     <div class="row">
 
-        <div class="col leftdiv  text-black">
+        <div class="col-md col-sm-12 leftdiv  text-black">
             <span>الطريقة القديمة</span>
 
             <div>
@@ -120,7 +164,7 @@
 
 
         </div>
-        <div class="col rightDiv  text-white">
+        <div class="col-md rightDiv col-sm-12 text-white">
             <span> <img src="../../assets/Vector.svg" class="me-3" alt="Image 3">
 
                 طريقةدَرب برنت
@@ -230,9 +274,11 @@ h2 {
 .list-group-item img {
     width: 5%;
 }
-.col-2{
+
+.col-2 {
     margin-top: auto;
 }
+
 button {
     width: 90%;
     border-radius: 0;
@@ -253,10 +299,39 @@ li {
     display: none;
 }
 
-#show1:hover .hide1{
+#show1:hover+.hide1 {
     display: block;
-
+    margin-top: -14%;
 }
 
+#show2:hover+.hide2 {
+    display: block;
+    margin-top: -14%;
+}
+
+#show3:hover+.hide3 {
+    display: block;
+    margin-top: -14%;
+}
+
+#show4:hover+.hide4 {
+    display: block;
+    margin-top: -14%;
+}
+
+#show5:hover+.hide5 {
+    display: block;
+    margin-top: -14%;
+}
+
+#show6:hover+.hide6 {
+    display: block;
+    margin-top: -14%;
+}
+.position-absolute i{
+    top: 97%;
+    right: 89%;
+    position: inherit;
+}
 </style>
  

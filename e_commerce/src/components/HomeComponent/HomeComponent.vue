@@ -3,7 +3,7 @@
 <template >
 
 
-  <div class="container-fluid">
+  <div class="container">
    <WelcomeComponent  />
    <HometopComponent  />
 
